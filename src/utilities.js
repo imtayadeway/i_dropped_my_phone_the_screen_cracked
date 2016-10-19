@@ -17,6 +17,7 @@ function flatten(a, r) {
     }
     return r;
 }
+exports.flatten = flatten;
 
 ///**
 // * Dedupe array
@@ -35,6 +36,7 @@ function arrayUnique(array) {
     }
     return a;
 }
+exports.arrayUnique = arrayUnique;
 
 ///**
 // * get unique id
@@ -65,6 +67,7 @@ function setter(map, key, value) {
         }
     }
 }
+exports.setter = setter;
 
 ///**
 // * helper function to remove values in a map
